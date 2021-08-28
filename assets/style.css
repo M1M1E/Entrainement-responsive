@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#background {
+  background-image: url(./css/image-fond.jpg);
+  z-index: 0;
+  position: relative;
+}
+
+#container-one {
+  width: 80%;
+  text-align: center;
+  padding: 20px;
+}
+
+#container-two {
+  margin: 0;
+  width: auto;
+  background-color: #f5f5f5;
+  padding: 60px;
+}
+
+header {
+  margin: 0;
+  width: auto;
+  border: 1px solid #222222;
+  background-color: #222222;
+}
+
+.logo {
+  margin-bottom: 5px;
+}
+
+.menu {
+  width: 35px;
+  background-color: #ffffff;
+  margin-left: 30%;
+}
+
+.one, .two {
+  visibility: hidden;
+}
+
+.first {
+  font-size: 2em;
+  color: white;
+  text-align: center;
+  top: 10px;
+  width: 90%;
+  margin-left: 12px;
+}
+
+.text-one {
+  text-align: center;
+  color: #e1e1e1;
+  margin-top: 50px;
+  width: 70%;
+  margin-left: 16%;
+}
+
+.gras {
+  color: white;
+}
+
+.fin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.learn {
+  border: 1px solid #ff6347;
+  border-radius: 5px;
+  background-color: #ff6347;
+  text-align: center;
+  margin-left: 35%;
+  margin-top: 10%;
+  width: 100px;
+  height: 30px;
+  color: white;
+}
+
+.code {
+  width: 80px;
+  margin-left: -22%;
+  margin-top: 25%;
+  margin-bottom: 12px;
+}
+
+.academy {
+  width: 40%;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.h2 {
+  text-align: right;
+  color: #ff6347;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+
+hr {
+  height: 1px;
+  background-color: #ff6347;
+  border: none;
+  width: 50%;
+  margin-left: 35%;
+}
+
+.trait-2 {
+  height: 1px;
+  background-color: #ff6347;
+  border: none;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.second-p {
+  margin-left: 50px;
+  font-size: 1em;
+  margin-top: 35px;
+  line-height: 28px;
+}
+
+.red {
+  color: #ff6347;
+}
+
+.get {
+  color: #ff6347;
+  font-size: 2.2em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.user {
+  width: 120px;
+  margin-left: 25%;
+  margin-top: 20px;
+}
+
+.students {
+  color: #ff6347;
+  font-size: 2.4em;
+  text-align: center;
+  padding-top: 20px;
+  margin-right: 12px;
+}
+
+.want {
+  color: #333333;
+  font-size: 1em;
+  width: 100%;
+}
+
+.end {
+  margin-left: 120px;
+}
+
+.btn-start {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff6347;
+  width: 120px;
+  display: inline-block;
+  height: 30px;
+  text-align: center;
+  padding-top: 10px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.pencil {
+  padding-top: 50px;
+  margin-left: 25%;
+  width: 120px;
+}
+
+.educ {
+  color: #ff6347;
+  font-size: 2.4em;
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.text {
+  color: #333333;
+  font-size: 1em;
+  width: 100%;
+  padding: 15px;
+}
+
+.space {
+  margin-left: 40px;
+}
+
+.join {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff6347;
+  margin-left: 80px;
+  display: inline-block;
+  height: 30px;
+  width: 140px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.dollar {
+  margin-top: 40px;
+  margin-left: 80px;
+  width: 140px;
+}
+
+.sponso {
+  color: #ff6347;
+  font-size: 2.2em;
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.text-end {
+  color: #333333;
+  font-size: 1em;
+  width: 100%;
+  padding: 15px;
+}
+
+.space {
+  margin-left: 20px;
+}
+
+.end-end {
+  color: #333333;
+  margin-left: 120px;
+  font-size: 1em;
+  margin-top: -14px;
+  padding-bottom: 30px;
+}
+
+.give {
+  border: 2px solid #dedede;
+  border-radius: 5px;
+  background-color: white;
+  color: #ff6347;
+  margin-left: 80px;
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+  padding-top: 8px;
+}
+
+footer {
+  background-color: #ff6347;
+  height: 300px;
+}
+
+.footer {
+  margin-top: 200px;
+}
+
+@media screen and (min-width: 700px) {
+  #globale {
+    width: auto;
+    margin: auto;
+  }
+  #container-two {
+    display: -ms-grid;
+    display: grid;
+  }
+  .logo {
+    margin-left: 20%;
+    margin-bottom: -10px;
+  }
+  .menu {
+    visibility: hidden;
+  }
+  .menus {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 20%;
+    color: #a6a8a8;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  .one, .two {
+    visibility: visible;
+  }
+  .first {
+    font-size: 2.6em;
+    padding-top: 40px;
+  }
+  .text-one {
+    font-size: 1.3em;
+  }
+  .learn {
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    margin-left: 40%;
+  }
+  .code {
+    margin-left: -10%;
+    margin-top: 18%;
+    margin-bottom: 30px;
+  }
+  .academy {
+    margin-left: 180px;
+    margin-top: 30px;
+    width: 180px;
+  }
+  .h2 {
+    margin-left: 18%;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  hr {
+    width: 150px;
+    margin-left: 52%;
+  }
+  .second-p {
+    font-size: 1.3em;
+    text-align: center;
+  }
+  .get {
+    font-size: 3em;
+  }
+  .trait-2 {
+    width: 20%;
+    margin-left: 40%;
+  }
+  .user {
+    margin-left: 15%;
+  }
+  .students {
+    width: 20px;
+    margin-left: 12%;
+  }
+  .want {
+    text-align: center;
+    font-size: 1.4em;
+    margin-left: 70px;
+    width: 28%;
+  }
+  .end {
+    margin-left: 0;
+  }
+  .btn-start {
+    margin-left: 14%;
+  }
+  .pencil {
+    margin-left: 45%;
+    margin-top: -33%;
+  }
+  .educ {
+    margin-top: -19%;
+  }
+  .join {
+    margin-top: -3.5%;
+    margin-left: 45%;
+  }
+  .educ-total {
+    width: 30%;
+    font-size: 1.4em;
+    margin-top: -15%;
+    margin-left: 37%;
+  }
+  .happ {
+    margin-top: -18px;
+    margin-left: 130px;
+  }
+  .space {
+    margin-left: 3px;
+  }
+  .dol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .dollar {
+    margin-top: -30%;
+    margin-left: 80%;
+    width: 200px;
+    height: 150px;
+  }
+  .sponso {
+    margin-top: -19%;
+    margin-left: -170px;
+    font-size: 2.4em;
+    height: 40px;
+  }
+  .fini {
+    margin-top: -15.2%;
+    font-size: 1.4em;
+    margin-left: -24%;
+    text-align: inherit;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    block-size: 100px;
+    width: 40%;
+    height: 160px;
+  }
+  .end-end {
+    margin-left: 130px;
+    margin-top: -13.9%;
+  }
+  .give {
+    margin-left: 80%;
+    margin-top: -3.6%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
